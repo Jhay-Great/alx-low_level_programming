@@ -1,15 +1,14 @@
 #include <stdio.h>
 /**
   * main - Entry point
-  * Description: base 10 numbers from 0-9 no char type
   * Return: Always 0
   */
 int main(void)
 {
-	int nums;
+	char s;
 
-	for (nums = 0; nums < 10; nums++)
-		putchar("%d", nums);
-	putchar("\n");
+	for (s = '0'; s <= '9'; s++)
+		putchar(s);
+	putchar('\n');
 	return (0);
 }
