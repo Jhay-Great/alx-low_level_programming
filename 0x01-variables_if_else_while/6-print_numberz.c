@@ -1,14 +1,16 @@
 #include <stdio.h>
 /**
-  * main - Entry point
-  * Return: Always 0
+  * main - Entry
+  * Return: 0
   */
 int main(void)
 {
-	char numb;
+	int numbs;
 
-	for (numb = 0; numb < 10 ; numb++)
-		putchar((numb % 10) + '0');
+	for (numbs = 0; numbs < 10; numbs++)
+	{
+		putchar((numbs % 10) + '0');
+	}
 	putchar('\n');
 	return (0);
 }
