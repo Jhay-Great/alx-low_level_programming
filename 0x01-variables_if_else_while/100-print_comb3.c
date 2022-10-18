@@ -15,6 +15,8 @@ int main(void)
 			{
 				putchar(a);
 				putchar(b);
+				putchar(',');
+				putchar(' ');
 			}
 			else if (a == b)
 			{
@@ -23,11 +25,6 @@ int main(void)
 			else if (a == '8' && b == '9')
 			{
 				break;
-			}
-			else
-			{
-				putchar(',');
-				putchar(' ');
 			}
 		}
 	}
