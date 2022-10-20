@@ -1,15 +1,17 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - function prototype
  * Description: printing alphabets in lowercae
  * Return: Always 0
  */
-int main(void)
+
+void print_alphabet(void)
 {
 	char x;
 
 	for (x = 'a'; x <= 'z'; x++)
+	{
 		_putchar(x);
-	_putchar('\n');
-	return (0);
+	}
+		_putchar('\n');
 }
