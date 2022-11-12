@@ -7,7 +7,15 @@
   */
 int _abs(int x)
 {
-	x = x * x;
-	_putchar(x);
-	return (x);
+	if (x >= 0)
+	{
+		x = x * 1;
+		return(x);
+	}
+	else
+	{
+		x = x * -1;
+		return(x);
+	}
+	return (0);
 }
